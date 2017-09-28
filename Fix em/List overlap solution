@@ -1,0 +1,10 @@
+a = [4,3,2,1,6,5,9,8,7,23,4]
+b = [4,5,8,76,34,23,7,5,2,3,5]
+
+num=[]
+for i in a:
+    for j in b:
+        if i == j:
+            num.append(i)
+
+print("The unique integers are: ",num)
