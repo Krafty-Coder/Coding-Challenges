@@ -1,7 +1,13 @@
 from functools import lru_cache
+"""
+Finding numbers in the fibonacci sequence and provided the
+limit in the arguments in range
 
+Lru Cache stores already worked upon numbers to fasten the process
 
-@lru_cache()
+"""
+
+@lru_cache(10000)
 def fibonacci(n):
 
     if n == 1:
